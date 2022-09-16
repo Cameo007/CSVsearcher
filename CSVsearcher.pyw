@@ -16,6 +16,7 @@ __status__ = "Release"
 
 from PySide6.QtCore import Qt, QSize
 from PySide6.QtWidgets import *
+from PySide6.QtGui import QIcon
 
 import os
 
@@ -26,6 +27,7 @@ class Window(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setFixedSize(QSize(300, 200))
+        self.setWindowIcon(QIcon("CSVsearcher.png"))
         self.setWindowTitle("CSVsearcher")
 
         self.filename = ""
