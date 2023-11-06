@@ -1,6 +1,8 @@
 # CSVsearcher
 A program, for finding all rows in a csv file matching a regular expression in a specified column.
 
+# Moved to [Codeberg](https://codeberg.org/Cameo007/CSVSearcher.git)
+
 ## Usage
 ### Dependencies:
 - Python3
